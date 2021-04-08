@@ -6,9 +6,9 @@
 
 namespace Magarov
 {
-    class LinEquation : protected EquationInterface
-    {
-    public:
-       vector <float> *solve(float numA, float numB );
-    };
+	class LinEquation : protected EquationInterface
+	{
+	public:
+	   vector <float> *solve(float numA, float numB );
+	};
 }
